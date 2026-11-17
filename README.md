@@ -47,21 +47,6 @@ An end-to-end Disaster Recovery (DR) architecture and timed failover runbook bui
 
 ---
 
-## Quick Start
-
-1. **Validate the Terraform Infrastructure Blueprint:**
-   ```bash
-   cd terraform
-   terraform init -backend=false
-   terraform validate
-   ```
-
-2. **Execute the Timed Disaster Recovery Drill:**
-   ```bash
-   cd ..
-   chmod +x scripts/dr-drill.sh
-   ./scripts/dr-drill.sh
-   ```
 
 ---
 # AWS Disaster Recovery (DR) Drill & Automated Failover Runbook
